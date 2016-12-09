@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		65472CCC1DFB57D2001CAF77 /* MultiSelectSegmentedControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 65472CCA1DFB57D2001CAF77 /* MultiSelectSegmentedControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		65472CD11DFB580E001CAF77 /* MultiSelectSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = DC72F71A1721695D007E5CC6 /* MultiSelectSegmentedControl.m */; };
+		65472D0C1DFB5C53001CAF77 /* MultiSelectSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = DC72F71A1721695D007E5CC6 /* MultiSelectSegmentedControl.m */; };
+		65472D0D1DFB5C57001CAF77 /* MultiSelectSegmentedControl.h in Headers */ = {isa = PBXBuildFile; fileRef = DC72F7191721695D007E5CC6 /* MultiSelectSegmentedControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DC72F6F4172167E9007E5CC6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC72F6F3172167E9007E5CC6 /* UIKit.framework */; };
 		DC72F6F6172167E9007E5CC6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC72F6F5172167E9007E5CC6 /* Foundation.framework */; };
 		DC72F6F8172167E9007E5CC6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC72F6F7172167E9007E5CC6 /* CoreGraphics.framework */; };
@@ -25,9 +25,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		65472CC81DFB57D2001CAF77 /* MultiSelectSegmentedControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MultiSelectSegmentedControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		65472CCA1DFB57D2001CAF77 /* MultiSelectSegmentedControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MultiSelectSegmentedControl.h; sourceTree = "<group>"; };
-		65472CCB1DFB57D2001CAF77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65472D041DFB5C3C001CAF77 /* MultiSelectSegmentedControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MultiSelectSegmentedControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		65472D071DFB5C3C001CAF77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DC72F6F0172167E9007E5CC6 /* MultiSegment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiSegment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC72F6F3172167E9007E5CC6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		DC72F6F5172167E9007E5CC6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -50,7 +49,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		65472CC41DFB57D2001CAF77 /* Frameworks */ = {
+		65472D001DFB5C3C001CAF77 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -70,11 +69,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		65472CC91DFB57D2001CAF77 /* MultiSelectSegmentedControl */ = {
+		65472D051DFB5C3C001CAF77 /* MultiSelectSegmentedControl */ = {
 			isa = PBXGroup;
 			children = (
-				65472CCA1DFB57D2001CAF77 /* MultiSelectSegmentedControl.h */,
-				65472CCB1DFB57D2001CAF77 /* Info.plist */,
+				DC72F7191721695D007E5CC6 /* MultiSelectSegmentedControl.h */,
+				DC72F71A1721695D007E5CC6 /* MultiSelectSegmentedControl.m */,
+				65472D071DFB5C3C001CAF77 /* Info.plist */,
 			);
 			path = MultiSelectSegmentedControl;
 			sourceTree = "<group>";
@@ -82,10 +82,8 @@
 		DC72F6E7172167E9007E5CC6 = {
 			isa = PBXGroup;
 			children = (
-				DC72F7191721695D007E5CC6 /* MultiSelectSegmentedControl.h */,
-				DC72F71A1721695D007E5CC6 /* MultiSelectSegmentedControl.m */,
 				DC72F6F9172167E9007E5CC6 /* MultiSegment */,
-				65472CC91DFB57D2001CAF77 /* MultiSelectSegmentedControl */,
+				65472D051DFB5C3C001CAF77 /* MultiSelectSegmentedControl */,
 				DC72F6F2172167E9007E5CC6 /* Frameworks */,
 				DC72F6F1172167E9007E5CC6 /* Products */,
 			);
@@ -95,7 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				DC72F6F0172167E9007E5CC6 /* MultiSegment.app */,
-				65472CC81DFB57D2001CAF77 /* MultiSelectSegmentedControl.framework */,
+				65472D041DFB5C3C001CAF77 /* MultiSelectSegmentedControl.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -141,25 +139,25 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		65472CC51DFB57D2001CAF77 /* Headers */ = {
+		65472D011DFB5C3C001CAF77 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65472CCC1DFB57D2001CAF77 /* MultiSelectSegmentedControl.h in Headers */,
+				65472D0D1DFB5C57001CAF77 /* MultiSelectSegmentedControl.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		65472CC71DFB57D2001CAF77 /* MultiSelectSegmentedControl */ = {
+		65472D031DFB5C3C001CAF77 /* MultiSelectSegmentedControl */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 65472CCF1DFB57D2001CAF77 /* Build configuration list for PBXNativeTarget "MultiSelectSegmentedControl" */;
+			buildConfigurationList = 65472D091DFB5C3C001CAF77 /* Build configuration list for PBXNativeTarget "MultiSelectSegmentedControl" */;
 			buildPhases = (
-				65472CC31DFB57D2001CAF77 /* Sources */,
-				65472CC41DFB57D2001CAF77 /* Frameworks */,
-				65472CC51DFB57D2001CAF77 /* Headers */,
-				65472CC61DFB57D2001CAF77 /* Resources */,
+				65472CFF1DFB5C3C001CAF77 /* Sources */,
+				65472D001DFB5C3C001CAF77 /* Frameworks */,
+				65472D011DFB5C3C001CAF77 /* Headers */,
+				65472D021DFB5C3C001CAF77 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -167,7 +165,7 @@
 			);
 			name = MultiSelectSegmentedControl;
 			productName = MultiSelectSegmentedControl;
-			productReference = 65472CC81DFB57D2001CAF77 /* MultiSelectSegmentedControl.framework */;
+			productReference = 65472D041DFB5C3C001CAF77 /* MultiSelectSegmentedControl.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		DC72F6EF172167E9007E5CC6 /* MultiSegment */ = {
@@ -196,7 +194,7 @@
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Yonat Sharon";
 				TargetAttributes = {
-					65472CC71DFB57D2001CAF77 = {
+					65472D031DFB5C3C001CAF77 = {
 						CreatedOnToolsVersion = 8.1;
 						ProvisioningStyle = Automatic;
 					};
@@ -215,13 +213,13 @@
 			projectRoot = "";
 			targets = (
 				DC72F6EF172167E9007E5CC6 /* MultiSegment */,
-				65472CC71DFB57D2001CAF77 /* MultiSelectSegmentedControl */,
+				65472D031DFB5C3C001CAF77 /* MultiSelectSegmentedControl */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		65472CC61DFB57D2001CAF77 /* Resources */ = {
+		65472D021DFB5C3C001CAF77 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -244,11 +242,11 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		65472CC31DFB57D2001CAF77 /* Sources */ = {
+		65472CFF1DFB5C3C001CAF77 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65472CD11DFB580E001CAF77 /* MultiSelectSegmentedControl.m in Sources */,
+				65472D0C1DFB5C53001CAF77 /* MultiSelectSegmentedControl.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,7 +291,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		65472CCD1DFB57D2001CAF77 /* Debug */ = {
+		65472D0A1DFB5C3C001CAF77 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ANALYZER_NONNULL = YES;
@@ -322,21 +320,18 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				INFOPLIST_FILE = MultiSelectSegmentedControl/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.danielbyon.MultiSelectSegmentedControl;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		65472CCE1DFB57D2001CAF77 /* Release */ = {
+		65472D0B1DFB5C3C001CAF77 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ANALYZER_NONNULL = YES;
@@ -366,14 +361,12 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				INFOPLIST_FILE = MultiSelectSegmentedControl/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.danielbyon.MultiSelectSegmentedControl;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -462,11 +455,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		65472CCF1DFB57D2001CAF77 /* Build configuration list for PBXNativeTarget "MultiSelectSegmentedControl" */ = {
+		65472D091DFB5C3C001CAF77 /* Build configuration list for PBXNativeTarget "MultiSelectSegmentedControl" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				65472CCD1DFB57D2001CAF77 /* Debug */,
-				65472CCE1DFB57D2001CAF77 /* Release */,
+				65472D0A1DFB5C3C001CAF77 /* Debug */,
+				65472D0B1DFB5C3C001CAF77 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
